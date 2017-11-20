@@ -77,7 +77,13 @@
 
 \section*{Instructions}
 \begin{itemize}
-  \item What are the skills of the team members?
+  \item What are the skills of the team members?\\
+  (R)yan - Javascript and node js, Juggling, Getting code to run, \\
+  (E)ric - 
+    understand database management issues, good understanding of how to make things real time, algorithmic thinker, high level idea generation, thinking about ethical implications of ideas\\
+  (C)ecilia - graphics \\
+  (K)atie - in Deep Learning, juggling \\
+  
   \item What is your idea?
   \item What data will you use?
   \item What software will you use?
@@ -88,8 +94,54 @@
   \item 2 pages max.
 \end{itemize}
 
-\section*{Team name: \emph{HERE PLEASE}}
+\section*{Team name: \emph{RECK-it-Gazer}}
 
-Lorem ipsum.
+\section*{Running the webgazer demo:}
+
+
+\begin{enumerate}
+\item
+Install node/NPM:
+    https://nodejs.org/en/
+\item
+In command line, run: 
+    npm install http-server -g
+\item
+Navigate to webgazer directory and run: 
+    serve-https
+\end{enumerate}
+
+\begin{verbatim}
+Eric's Notes:
+Board notes:
+    What we have?
+    code 
+
+Notes on other systems to tryout:
+    xlabs - a company that is using face position 
+    and eye location to get eye position
+    Camgaze.js - this is a tracker that just predicts 
+    OpenGazer [34]  based on open cv
+    
+    
+\end{verbatim}
+
+Todo over Break: 
+\begin{enumerate}
+\item smoothing the eye tracking position (Ryan)
+\item chrome extension(?) (Ryan)
+\item improve blink detector (Katie)
+\item include face angle(?) (Katie)
+\item Creating a model that would go from face/eyes $\rightarrow$ screen position (Eric)
+\begin{enumerate}
+    \item What are the models we should use?
+    \item How do we combine the metadata with the actual images?
+    \item If we are using deep neural networks, what is the structure of the networks we want to use?
+    \item Get it running on a gpu
+    \item What gpu should eric buy for his desktop?
+    
+\end{enumerate}
+\item Create 3d version of face (to hypothetically put into machine learning algorithm)
+\end{enumerate}
 
 \end{document}
